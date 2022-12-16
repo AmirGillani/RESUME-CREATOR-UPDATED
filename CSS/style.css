@@ -1,0 +1,41 @@
+body
+{
+ background-color: #97DECE;
+}
+
+hr
+{
+
+/*default style was insent we change it to no style*/
+ border-style: none;
+
+ /*apply new styling property by searching on google about borders and then
+ apply border top style to dotted because we only want one single dotten line
+ in our hr*/
+
+ border-top-style: dotted;
+
+ /*give border a color*/
+ border-color: grey;
+
+ /*give it a width so that dots get big*/
+ border-width: 5px;
+
+ /*this will create responsive hr and show always 5% of screen as hr in any device*/
+ width: 5%;
+}
+h1,h3,th,label{
+    color: #227C70;
+}
+table{
+    border-color: #227C70;
+    
+}
+a{
+    
+    color:#453C67;
+}
+p,li,td{
+    
+    color:#1C315E;
+}
